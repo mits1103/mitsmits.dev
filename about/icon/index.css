@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+color: #165e83;
+}
+
+hr {
+  margin: 10px 30px;
+}
+
+.header {
+  background-color: #2C2F33;
+  height: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-logo img {
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+  }
+
+  .header-text img {
+    height: 52px;
+    margin: 14px 0px 13px 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .header-logo img {
+    border-radius: 30px;
+    margin: 10px 13px 10px 15px;
+    float: left;
+  }
+
+  .header-text img {
+    height: 54px;
+    margin: 13px 0px 13px 0px;
+  }
+}
+
+.main {
+  color: #333333;
+}
+.main-img {
+  text-align: center;
+  margin: 40px 10px 20px 10px;
+}
+
+h2 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #010101;/*文字色*/
+  background: #c9c9c9;/*背景色*/
+  border-bottom: solid 3px #2C2F33;/*下線*/
+}
+
+.content p {
+  margin: 5px 10px;
+}
+.footer {
+  text-align: center;
+}

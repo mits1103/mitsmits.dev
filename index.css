@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+color: #165e83;
+}
+
+hr {
+  margin: 10px 30px;
+}
+
+
+.header {
+  background-color: #2C2F33;
+  height: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-logo img {
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+  }
+
+  .header-text img {
+    height: 52px;
+    margin: 14px 0px 13px 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .header-logo img {
+    border-radius: 30px;
+    margin: 10px 13px 10px 15px;
+    float: left;
+  }
+
+  .header-text img {
+    height: 54px;
+    margin: 13px 0px 13px 0px;
+  }
+}
+
+.main {
+  color: #333333;
+}
+.main-img {
+  text-align: center;
+  margin: 40px 10px 20px 10px;
+}
+
+.main-title h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 5px;
+  color: #333333;
+}
+
+.main-title h2 {
+  text-align: center;
+  font-size: 16px;
+  margin: 5px;
+  color: #333333;
+}
+
+.links {
+  text-align: center;
+}
+
+.links img {
+  margin: 5px 15px;
+}
+
+.card {
+  width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 15px;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+}
+.card-link a:hover {
+  color: #0090aa;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  text-align: center;
+}
+
+
+.cp_timeline03 {
+position: relative;
+margin: 3em auto;
+}
+.cp_timeline03:before {
+position: absolute;
+top: 0;
+width: 4px;
+height: 100%;
+content: '';
+background-color: #3f3f3f;
+left: 30px;
+}
+.cp_timeline03 .timeline_group {
+position: relative;
+padding-top: 55px;
+}
+.cp_timeline03 .timeline_group:not(:first-of-type) {
+margin-top: 4rem;
+}
+.cp_timeline03 .time_year {
+position: absolute;
+top: 0;
+left: 0;
+padding: 0.5rem 1.5rem;
+color: #fff;
+background-color: #2C2F33;
+width: 100%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.cp_timeline03 .timeline_item {
+margin-bottom: 1em;
+position: relative;
+padding-left: 80px;
+}
+.cp_timeline03 .timeline_item:not(:last-of-type) {
+margin-bottom: 2em;
+}
+.cp_timeline03 .timeline_item:before {
+position: absolute;
+z-index: -1;
+left: 0;
+width: 100%;
+height: 3px;
+content: '';
+background-color: #3f3f3f;
+top: 50%;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.cp_timeline03 .time {
+position: absolute;
+left: 0;
+box-sizing: border-box;
+min-width: 65px;
+min-height: 65px;
+padding: 0.5em 0.5em;
+text-align: center;
+color: #fff;
+background-color: #26C6DA;
+top: 50%;
+margin-top: -33px;
+border-radius: 65px;
+}
+.cp_timeline03 .time_day {
+font-size: 1em;
+font-weight: 700;
+display: block;
+}
+.cp_timeline03 .time_month {
+font-size: 0.8em;
+display: block;
+text-transform: uppercase;
+}
+.cp_timeline03 .desc {
+padding: 0.5em 1em;
+border-left: 3px solid #808080;
+border-radius: 2px;
+background-color: #fff;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+font-size: 0.9em;
+}
+.cp_timeline03 .desc .flag {
+font-size: 1.2em;
+font-weight: bold;
+margin: 0;
+padding: 0;
+padding-bottom: 0.3em;
+}
+@media only screen and (max-width: 9999px) {
+.cp_timeline03:before {
+left: 0;
+}
+.cp_timeline03 .timeline_group {
+padding-top: 40px;
+}
+.cp_timeline03 .timeline_item {
+padding-top: 60px;
+padding-left: 20px;
+}
+.cp_timeline03 .timeline_item:before {
+top: 90px;
+}
+.cp_timeline03 .time {
+top: 40px;
+border-radius: 0 20px 20px 0;
+min-height: 2em;
+}
+.cp_timeline03 .time_day,
+.cp_timeline03 .time_month {
+display: inline-block;
+}
+.cp_timeline03 .desc {
+font-size: 0.8em;
+}
+}
+
+@media only screen and (min-width: 850px) {
+.timeline {
+  margin: 0px 200px;
+}
+}
